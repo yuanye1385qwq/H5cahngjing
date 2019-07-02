@@ -1,0 +1,68 @@
+.page1{
+    position: relative;
+    background: url(../img/死侍.png) no-repeat left top;
+    background-size: cover;
+}
+.page1 img{
+    position: absolute;
+}
+.page1 .img01{
+    width: 1rem;
+    left: 1.25rem;
+    top: 1.25rem;
+}
+.page1 .img02{
+    width: .65rem;
+    left: 2.75rem;
+    top: 3.25rem;
+}
+.page1 .img03{
+    width: .50rem;
+    left: 0.25rem;
+    top: 3rem;
+}
+.page1 .img04{
+    width: .63rem;
+    left: 3.25rem;
+    top: 4rem;
+}
+.page1 .img05{
+    width: .61rem;
+    left: 0.75rem;
+    top: 4rem;
+}
+.page1 .img06{
+    width: .55rem;
+    left: 2.5rem;
+    top: 1.5rem;
+}
+.page1 .img07{
+    width: .56rem;
+    left: 5rem;
+    top: 3rem;
+}
+.page1 .img08{
+    width: .60rem;
+    left: 1.8rem;
+    top: 3rem;
+}
+/* .page1 img:nth-child(2){
+    width: 2.17rem;
+    height: 3.57rem;
+    left: 1.65rem;
+    top: .2rem;
+} */
+.mainBox .page1 .ani .img01{
+    width: 200px;
+    height: 200px;
+}
+@keyframes bounceInRight{
+    0%,100%,60%,75%,90%{
+        -webkit-transition-timing-function:cubic-bezier(0.215,.61,.355,1);transition-timing-function:cubic-bezier(0.215,.61,.355,1)}0%{opacity:0;-webkit-transform:translate3d(3000px,0,0);transform:translate3d(3000px,0,0)}60%{opacity:1;-webkit-transform:translate3d(-25px,0,0);transform:translate3d(-25px,0,0)}75%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)
+    }
+    90%{
+        -webkit-transform:translate3d(-5px,0,0);
+        transform:translate3d(-5px,0,0)
+    }
+    100%{-webkit-transform:none;transform:none}
+}
